@@ -71,6 +71,7 @@
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
+    <Content Include="img\background.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\icons\fi-address-book.svg" />
     <Content Include="img\icons\fi-alert.svg" />

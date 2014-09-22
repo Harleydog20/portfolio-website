@@ -1,8 +1,18 @@
-﻿#id{
+﻿#logo{
     
-    max-height: 50%;
-    max-width: 50%;
+}
+header h1{
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    color:yellowgreen
+}
+#main{
+
+}
+footer{
+
 }
 body {
-    background-color:firebrick;
+    background-image:url('../img/background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }

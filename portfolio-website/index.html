@@ -2,43 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />    
-    <title></title>
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="CSS/foundation.min.css" rel="stylesheet" />
     <link href="css/foundation-icons.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="row" >
-        <div id="logo" class="small-3 columns">
-            <img src="img/logo.png" height="500" width="500" />
+    <header>        
+        <nav>
+            <div class="icon-bar six-up">
+                <a class="item">
+                    <img src="img/icons/fi-home.svg">
+                    <label>Home</label>
+                </a>
+                <a class="item">
+                    <img src="img/icons/fi-torso.svg">
+                    <label>About Me</label>
+                </a>
+                <a class="item">
+                    <img src="img/icons/fi-monitor.svg">
+                    <label>Projects</label>
+                </a>
+                <a class="item">
+                    <img src="img/icons/fi-crown.svg">
+                    <label>Services</label>
+                </a>
+                <a href="https://github.com/Harleydog20" class="item">
+                    <img src="img/icons/fi-social-github.svg">
+                    <label>GitHub</label>
+                </a>
+                <a class="item">
+                    <img src="img/icons/fi-comment.svg">
+                    <label>Contact Me</label>
+                </a>
+            </div>
+        </nav>
+        <div class="row">
+            <div id="logo" class="small-3 columns">
+                <img src="img/logo.png" height="500" width="500" />
+            </div>
+            <div class="small-offset-1 small-8 columns">
+                <h1>Hello & Welcome</h1>
+            </div>
+        </div>     
+    </header>
+    <div id="main">
+        <div class="small-6 columns">
+            <ul class="example-orbit" data-orbit>
+                <li>
+                    <img src="../img/icons/fi-alert.svg" alt="slide 1" />
+                    <div class="orbit-caption">
+                        Caption One.
+                    </div>
+                </li>
+                <li class="active">
+                    <img src="../img/logo.png" alt="slide 2" height="200" width="200" />
+                    <div class="orbit-caption">
+                        Caption Two.
+                    </div>
+                </li>
+                <li>
+                    <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" />
+                    <div class="orbit-caption">
+                        Caption Three.
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="small-9 columns">
-            <h1>Robert Thomas</h1>
+        <div class="small-6 columns">
+
         </div>
     </div>
-    <div class="icon-bar five-up">
-        <a class="item">
-            <img src="img/icons/fi-home.svg">
-            <label>Home</label>
-        </a>
-        <a class="item">
-            <img src="img/icons/fi-torso.svg">
-            <label>About Me</label>
-        </a>
-        <a class="item">
-            <img src="img/icons/fi-monitor.svg">
-            <label>Projects</label>
-        </a>
-        <a class="item">
-            <img src="img/icons/fi-crown.svg">
-            <label>Services</label>
-        </a>
-        <a class="item">
-            <img src="img/icons/fi-comment.svg">
-            <label>Contact Me</label>
-        </a>
-    </div>
+    <footer>
+        
+    </footer>
     <!--JavaScript Section-->
     <script src="JS/vendor/jquery.js"></script>
     <script src="JS/foundation.min.js"></script>
