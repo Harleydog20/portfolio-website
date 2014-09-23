@@ -12,8 +12,12 @@ article{
     padding: 20px;
     color:white;
 }
-footer{
-
+footer p{
+    background:rgba(50, 50, 50, 0.75);
+    border: 1px solid white;
+    border-radius: 15px 15px;
+    padding: 10px;
+    color:white;
 }
 .icon-bar{
     background:rgba(50, 50, 50, 0.75);
