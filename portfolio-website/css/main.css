@@ -3,7 +3,11 @@
     color:yellowgreen;
 }
 #main{
-
+    overflow:auto;
+    padding-bottom: 50px;
+}
+#wrapper{
+    min-height: 100%;
 }
 article{
     background:rgba(50, 50, 50, 0.75);
@@ -11,6 +15,14 @@ article{
     border-radius: 15px 15px;
     padding: 20px;
     color:white;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+footer{
+   position:relative;
+   margin-top:-500px;
+   height:50px;
+   clear:both;
 }
 footer p{
     background:rgba(50, 50, 50, 0.75);
@@ -22,8 +34,16 @@ footer p{
 .icon-bar{
     background:rgba(50, 50, 50, 0.75);
 }
+#social{
+    background:rgba(50, 50, 50, 0.75);
+    border: 1px solid white;
+    border-radius: 15px 15px;
+    padding: 10px;
+    color:white;
+}
 body {
     background:url('../img/background.jpg') center center fixed;
     background-repeat:no-repeat;
     background-size:cover;
+    height: 100%;
 }

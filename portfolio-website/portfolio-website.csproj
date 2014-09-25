@@ -74,6 +74,7 @@
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
     <Content Include="img\background.jpg" />
+    <Content Include="img\flappybird.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\icons\fi-address-book.svg" />
     <Content Include="img\icons\fi-alert.svg" />
@@ -358,6 +359,9 @@
     <Content Include="img\icons\fi-yen.svg" />
     <Content Include="img\icons\fi-zoom-in.svg" />
     <Content Include="img\icons\fi-zoom-out.svg" />
+    <Content Include="img\social\facebook-icon.png" />
+    <Content Include="img\social\linkedin-icon.png" />
+    <Content Include="img\social\twitter-icon.png" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />
