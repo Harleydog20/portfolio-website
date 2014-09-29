@@ -73,6 +73,7 @@
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
+    <Content Include="img\app.png" />
     <Content Include="img\background.jpg" />
     <Content Include="img\flappybird.jpg" />
     <Content Include="img\logo.png" />
@@ -363,6 +364,7 @@
     <Content Include="img\social\facebook-icon.png" />
     <Content Include="img\social\linkedin-icon.png" />
     <Content Include="img\social\twitter-icon.png" />
+    <Content Include="img\www.png" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />

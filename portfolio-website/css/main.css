@@ -2,6 +2,10 @@
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
     color:yellowgreen;
 }
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:yellowgreen;
+}
 #main{
     padding-bottom: 25px;
 }
@@ -43,5 +47,5 @@ body {
     box-shadow:3px 3px 10px 3px black;
 }
 #active-page{
-    border-bottom:1px solid #008cba;
+    border-bottom:3px solid #008cba;
 }
